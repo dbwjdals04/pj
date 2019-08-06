@@ -29,3 +29,5 @@ build/
 
 ### VS Code ###
 .vscode/
+src/main/resources/static/css/agency.css
+src/main/resources/static/css/agency.min.css
