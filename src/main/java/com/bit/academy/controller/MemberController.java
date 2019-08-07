@@ -124,6 +124,7 @@ public class MemberController {
         model.addAttribute("member", memberVO);
         return "member/main";
     }
+
     @GetMapping("/member/idPwFind")
     public String idPwFind(){
         return "member/idPwFind";

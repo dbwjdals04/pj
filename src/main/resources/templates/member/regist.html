@@ -15,7 +15,6 @@
     <div class ="txtb"><input type = "text" name = "m_name" id ="m_name"/>
         <span data-placeholder="Username"></span></div>
     <div id="checkName"></div>
-    <div class="check_font" id="id_check"></div>
 
     <div class ="txtb"><input type="text" name ="m_id" id="m_id" />
         <span data-placeholder="ID"></span></div>
@@ -98,7 +97,7 @@
                 .submit();
         };
 
-
+      //패스워드제한
       $("#m_password").change(function(){
           checkPassword($('#m_password').val(),$('#m_id').val());
       });
@@ -114,11 +113,8 @@
               document.getElementById("checkPassword").style.color = "blue";
               return false;
           }
-
-
           return true;
       }
-
 
 
     </script>
